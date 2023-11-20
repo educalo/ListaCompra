@@ -11,3 +11,5 @@ Tener en cuenta:
 
 2.- git init para iniciar git en nuestro proyecto desde una terminal.
 
+3.- git log para comprobar el historico de uso de git en tu proyecto
+
