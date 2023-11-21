@@ -7,9 +7,9 @@ git config --global user.email "ecano@iesoretania.es"
 
 Tener en cuenta:
 
-1.- Como no se exportan ciertos ficheros como node_modules (estan en el .giignore) se debe de ejecutar los siguientes comandos para crearlos: npm install (crea las dependencias añadidas en en package.json) y npm start (inicia el servidor web)
+1.- Se instalan dependencias npm install donde se crean la carpeta node_modules, por defecto esta incluido en el .gitignore y el fichero package.json
+2.- Se inicia el servidor web con npm start
 
-2.- git init para iniciar git en nuestro proyecto desde una terminal.
-
-3.- git log para comprobar el historico de uso de git en tu proyecto
+3.- git init para iniciar git en nuestro proyecto desde una terminal.
+4.- git log para comprobar el historico de uso de git en tu proyecto
 
