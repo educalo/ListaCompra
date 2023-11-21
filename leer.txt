@@ -1,0 +1,17 @@
+1.- Tenemos que instalar todas las dependencias y el empaquetado para que el navegador puedo reconocer todo el codigo generado
+2.- npm gestionar las dependencias
+3.- Secuencia de instalacion: 
+    3.a Instalar node desde la pagina oficial
+    3.b arrancar npm init nos va a preguntar una serie de cuestiones y va a crear nuestro fichero package.json
+    3.c instalamos nuestra primera dependencia npm install --save react de esta manera se queda apuntada en el package.json, esto seria como un indice de dependencias
+4.- De momento no tenemos codigo propio
+5.- Podemos instalar yarn que es una capa superior a npm mas eficiente npm install --global yarn
+6.- npm install --save-dev parcel-bundler o yarn add --dev parcel-bundler, surge con la idea de la capacidad de trabajar con valores por defecto. Se instala --save-dev como dependencia para el desarrollo.
+7.- creo el fichero index.html en la raiz
+8.- Nos definimos en nuestro package.json un script start
+9.- Lanzamos el comando yarn start o npm start
+10.- Instalamos react dom:     npm install --save react-dom, lo vamos a utilizar para renderizar nuestro proyecto
+11.- Creamos el fichero index.jsx en la raiz de nuestro proyecto.
+12.- Modifico el index.jsx
+13.- Creo un componente dentro de src en una carpeta que voy a llamar App
+14.- Creo el fichero App.css dentro de la carpeta App

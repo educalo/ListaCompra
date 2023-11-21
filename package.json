@@ -4,19 +4,22 @@
   "description": "An exercise for an introduction to React",
   "main": "index.js",
   "scripts": {
-    "start": "parcel ./src/index.html --open"
+    "start": "parcel ./src/index.html --open",
+    "lint": "eslint --fix src/**/*.{js,jsx}"
   },
   "keywords": [
     "parcel",
     "react"
   ],
-  "author": "Alvaro Yuste (alvaroyuste.com)",
+  "author": "Eduardo Cano",
   "license": "MIT",
   "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "cla": "^0.0.3",
+    "classnames": "^2.3.2",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.3"
+    "parcel-bundler": "^1.12.5"
   }
 }
