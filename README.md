@@ -13,6 +13,7 @@ Tener en cuenta:
 2.- npm start para iniciar el servidor web
 
 
+
 1.- git init para iniciar git en nuestro proyecto desde una terminal.
 
 2.- git log para comprobar el historico de uso de git en tu proyecto
